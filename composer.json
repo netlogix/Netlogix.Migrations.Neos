@@ -1,0 +1,21 @@
+{
+    "name": "netlogix/migrations-neos",
+    "homepage": "http://websolutions.netlogix.de/",
+    "license": ["MIT"],
+    "description": "Custom neos migrations",
+    "type": "neos-package",
+    "require": {
+        "neos/neos": "^4.2 || ^5.2",
+        "netlogix/migrations": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netlogix\\Migrations\\Neos\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Netlogix.Migrations.Neos"
+        }
+    }
+}
