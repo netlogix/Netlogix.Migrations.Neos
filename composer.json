@@ -5,8 +5,8 @@
     "description": "Custom neos migrations",
     "type": "neos-package",
     "require": {
-        "neos/neos": "^4.2 || ^5.2",
-        "netlogix/migrations": "^1.2"
+        "neos/neos": "^5.3 || ^7.3 || ^8.0",
+        "netlogix/migrations": "^1.2 || ^2.0"
     },
     "autoload": {
         "psr-4": {
